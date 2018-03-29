@@ -3,11 +3,13 @@
 	"version": "0.0.1",
     "private": true,
 	"scripts": {
-		"start": "node app.js"
+		"start": "node app.js",
+		"unit-test": "mocha"
 	},
 	"dependencies": {
 		"express": "4.13.x",
-		"cfenv": "1.0.x"
+		"cfenv": "1.0.x",
+		"mocha": "*"
 	},
 	"repository": {},
 	"engines": {
